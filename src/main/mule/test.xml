@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<configuration-properties doc:name="Configuration properties" doc:id="50e7b532-cbc1-4d4d-b5dc-940a4ac31c69" file="dev.yaml" />
 	<flow name="testFlow" doc:id="6eb048c4-3775-402c-8d3a-245b0451aafd" >
 		<http:listener doc:name="Listener" doc:id="1d37d0a0-d644-40ac-a8eb-c5c7985316cc" config-ref="HTTP_Listener_config" path="v1"/>
-		<set-payload value='#["welcome to mule"]' doc:name="Set Payload" doc:id="7b3ba16a-5d2c-40be-8b97-194049a14045" />
+		<set-payload value='#["welcome to mule sekhar and also"]' doc:name="Set Payload" doc:id="7b3ba16a-5d2c-40be-8b97-194049a14045" />
 	</flow>
 </mule>
